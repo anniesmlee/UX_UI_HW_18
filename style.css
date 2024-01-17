@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium-Web);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web';
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+.my-work {
+    width: 100%;
+    padding: 0;
+}
+
+.my-work h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.line1 {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-bottom:30px;
+}
+
+.myWork {
+    margin: 20px;
+}
+
+.workGrid {
+    width: 90%;
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cs1 {
+    width: 300px;
+    flex: 1;
+    padding-right: 20px;
+}
+
+.cs1img {
+    flex: 1;
+}
+
+.cs1 h4 {
+    font-weight: 900;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.cs1 p {
+    font-size: 16px;
+}
+
+.cs2 {
+    width: 300px;
+    flex: 1;
+    padding-left: 20px
+}
+
+.cs2img {
+    flex: 1;
+}
+
+.cs2 h4 {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.cs2 p {
+    font-size: 16px;
+}
+
+
+.cs3 {
+    width: 300px;
+    flex: 1;
+    
+}
+
+.cs3img {
+    flex: 1;
+}
+
+.cs3 h4 {
+    font-weight: 900;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.cs3 p {
+    font-size: 16px;
+}
+
+
+
+.about-me {
+    width: 100%;
+    padding: 0;
+}
+
+.about-me h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.line2 {
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 10px;
+    margin-bottom:30px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.about {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photo {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.about-content {
+    flex: 1;
+}
+
+.about-content h3 {
+    font-size: 28px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    color: #5264FF;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+}
